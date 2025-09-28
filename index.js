@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/twitter', (req, res) => {
-  res.send('amir khan');
+  res.send('amir khan is a good boy');
 });
 
 app.get('/auth', (req, res) => {
